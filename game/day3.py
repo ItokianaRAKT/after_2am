@@ -2,24 +2,30 @@ from time import sleep
 
 
 def day_three_start(state):
-    print("\nDAY 3")
+    print("\nNUIT 3")
     sleep(2)
 
-    print("\n📱 Ton téléphone vibre.")
+    print("\nTon téléphone vibre.")
     sleep(2)
-    print("\n02:13")
+    print("\n02:12")
     sleep(2)
 
     print("\nUNKNOWN:")
-    print("C'est prêt.")
-    sleep(1)
-    print("L'application est maintenant débloquée.")
+    print("\n'Je suis légèrement en avance mais ce n'est pas grave.")
+    sleep(2)
+
+    print("C'est prêt. ")
+    sleep(2)
+
+    print("L'application est maintenant débloquée.'")
     sleep(2)
 
     print("\nTu te lèves.")
     sleep(2)
+
     print("La pièce est plongée dans le noir.")
     sleep(2)
+
     print("Seule la lumière de la lune traverse la fenêtre.")
     sleep(3)
 
@@ -41,10 +47,13 @@ def scene_player(state):
 
     print("\nUn lecteur vidéo apparaît à l'écran.")
     sleep(2)
+
     print("Aucune barre de progression.")
-    sleep(1)
+    sleep(2)
+
     print("Aucun titre.")
-    sleep(1)
+    sleep(2)
+
     print("Seulement un bouton : PLAY")
     sleep(2)
 
@@ -77,8 +86,10 @@ def look_behind_before_video(state):
 
     print("\nLa pièce est presque entièrement plongée dans le noir.")
     sleep(2)
+
     print("Ton écran éclaire seulement le bureau.")
     sleep(2)
+
     print("La lune éclaire faiblement le reste de la chambre.")
     sleep(2)
 
@@ -96,14 +107,17 @@ def start_video(state):
 
     print("\nLa vidéo montre ta chambre.")
     sleep(2)
+
     print("Le même bureau.")
-    sleep(1)
+    sleep(2)
+
     print("La même fenêtre.")
-    sleep(1)
+    sleep(2)
+
     print("La même pièce.")
     sleep(3)
 
-    print("\nJour 1.")
+    print("\nNUIT 1.")
     sleep(2)
 
     print("La chambre est vide.")
@@ -116,6 +130,7 @@ def start_video(state):
 
     print("\nUne silhouette entre dans la chambre.")
     sleep(3)
+
     print("Elle reste quelques secondes devant ton bureau.")
     sleep(3)
 
@@ -133,7 +148,7 @@ def start_video(state):
 
     print("\nQuelques secondes plus tard, tu apparais dans la vidéo.")
     sleep(2)
-    print("Tu viens d'entrer dans la chambre.")
+    print("Tu viens de te lever de ton lit.")
     sleep(3)
 
     print("\nLa vidéo avance.")
@@ -153,6 +168,7 @@ def start_video(state):
 
     print("\nElle s'approche de l'armoire.")
     sleep(2)
+
     print("Elle glisse une enveloppe sous l'armoire.")
     sleep(3)
 
@@ -191,13 +207,13 @@ def start_video(state):
     print("Puis elle regarde directement l'objectif.")
     sleep(4)
 
-    print("\n02:12")
+    print("\n02:11")
     sleep(2)
 
     print("Elle quitte la chambre.")
     sleep(3)
 
-    print("\n02:13")
+    print("\n02:12")
     sleep(2)
 
     print("Tu apparais dans la vidéo.")
@@ -248,6 +264,7 @@ def turn_around(state):
 
     print("\nL'écran devient noir.")
     sleep(2)
+
     print("Ton ordinateur s'éteint tout seul.")
     sleep(4)
 
@@ -276,6 +293,7 @@ def turn_around(state):
 
     print("L'enveloppe.")
     sleep(2)
+
     print("Sous l'armoire.")
     sleep(3)
 
@@ -289,6 +307,12 @@ def turn_around(state):
 
     print("\nTu l'ouvres.")
     sleep(3)
+
+    print("Une écriture soignée.")
+    sleep(2)
+
+    print("\nDes lettres rondes tracées a l'encre noire.")
+    sleep(2)
 
     print("""
 You weren't supposed to see me.
@@ -315,6 +339,9 @@ I'll always find you.
     sleep(3)
 
     print("\n02:13")
+    sleep(2)
+
+    print("Encore.")
     sleep(5)
 
 
@@ -322,23 +349,27 @@ def don_t_turn_around(state):
     print("\nTu restes immobile.")
     sleep(4)
 
+    print("La silhouette s'évapore.")
+    sleep(2)
+
     print("\nUn nouveau message apparaît.")
     sleep(3)
 
     print("\nUNKNOWN:")
+    sleep(1)
+
     print("Ouvre l'enveloppe que je t'ai laissée.")
     sleep(4)
 
     print("\nTu te souviens de la vidéo du jour 2.")
     sleep(3)
+
     print("L'enveloppe est sous ton armoire.")
     sleep(3)
 
     print("\nTu te lèves et vas la chercher.")
     sleep(4)
 
-    print("\nTu récupères l'enveloppe.")
-    sleep(3)
     print("Tu l'ouvres.")
     sleep(3)
 
@@ -346,8 +377,11 @@ def don_t_turn_around(state):
 
 
 def envelope_message(state):
-    print("Un message est tracé en feutre noir:")
-    sleep(1)
+    print("Une écriture soignée.")
+    sleep(2)
+
+    print("\nDes lettres rondes tracées a l'encre noire.")
+    sleep(2)
 
     print("""
 You weren't supposed to see me.
@@ -362,13 +396,13 @@ I'll always find you.
     sleep(5)
 
     print("\nTu entends quelque chose derrière toi.")
-    sleep(5)
+    sleep(3)
 
     print("\nTu te retournes.")
     sleep(4)
 
-    print("\nL'ordinateur s'éteint tout seul.")
-    sleep(4)
-
     print("\n02:13")
     sleep(5)
+
+    print("\nL'ordinateur s'éteint tout seul.")
+    sleep(4)

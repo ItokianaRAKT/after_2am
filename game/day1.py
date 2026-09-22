@@ -1,5 +1,4 @@
 from time import sleep
-from game.day2 import day_two_start
 
 
 def day_one_start(state):
@@ -10,7 +9,7 @@ def day_one_start(state):
     print("\nIci, tu incarnes un jeune lycéen ordinaire dont l'identité n'est pas précisée.")
     sleep(3)
 
-    print("\nDébut.")
+    print("\nNUIT 1")
     sleep(2)
 
     print("\nTu te réveilles.")

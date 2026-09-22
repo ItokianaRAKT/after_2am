@@ -2,16 +2,31 @@ from time import sleep
 
 
 def day_two_start(state):
-    print("\nDAY 2")
+    print("\nNUIT 2")
     sleep(2)
 
     print("\nTu te réveilles.")
     sleep(2)
 
-    print("Quelque chose a changé.")
-    sleep(3)
+    print("\n2:13")
+    sleep(2)
 
-    print("\nUne nouvelle application est apparue sur ton bureau.")
+    print("\nTu remarques que ton pc est allumé.")
+    sleep(2)
+
+    print("\nTu es pourtant bien sur de l'avoir éteint avant d'aller te coucher.")
+    sleep(2)
+
+    print("\nTu te lèves pour aller l'éteindre.")
+    sleep(2)
+
+    print("\nEn jetant un coup d'oeil a l'horloge numérique, tu remarques qu'il est 2:13.")
+    sleep(2)
+
+    print("\nAu moment d'éteindre ton pc, tu remarques qu'une nouvelle application est apparue sur ton bureau")
+    sleep(2)
+
+    print("\nC'est la première fois que tu la voies.")
     sleep(2)
 
     print("\n> SCENE")
@@ -25,9 +40,6 @@ def day_two_start(state):
 
 
 def scene_app(state):
-    print("\nSCENE")
-    sleep(2)
-
     print("\nPASSWORD REQUIRED")
     sleep(3)
 
